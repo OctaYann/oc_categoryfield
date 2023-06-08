@@ -148,6 +148,7 @@ class Oc_categoryfield extends Module
         $return = $presenter->present($categoryField);
         unset($return['id_category']);
         unset($return['id']);
+        return $return;
     }
 
     /**
